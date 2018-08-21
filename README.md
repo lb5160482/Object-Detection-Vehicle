@@ -103,4 +103,23 @@ Finally I get the vehicle bounding boxes by taking points from the heat map with
 
 ### YOLO Implementation
 
+1. Download Pascal VOC dataset, and create correct directories
+
+```Shell
+$ ./download_data.sh
+```
+2. Download [YOLO_small](https://drive.google.com/file/d/0B5aC8pI-akZUNVFZMmhmcVRpbTA/view?usp=sharing) weight file and put it in `data/weight`
+
+3. Modify configuration in `yolo/config.py`
+  
+4. Test
+  ```Shell
+  $ python test_yolo.py
+  ```
+
+### Requirements
+1. Tensorflow
+
+2. OpenCV
+
 ![alt text][image14]
