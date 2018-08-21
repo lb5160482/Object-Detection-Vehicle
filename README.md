@@ -2,8 +2,6 @@
 
 This project build a software pipeline to detect vehicles in a video using different method including SVM+Sliding Window and YOLO.Vehicle Detection
 
-This project build a software pipeline to detect vehicles in a video using different method including SVM+Sliding Window and YOLO.
-
 ---
 
 **Vehicle Detection Project**
